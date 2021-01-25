@@ -44,7 +44,7 @@ void display(struct node *head)
 {
 	for(int i=0;head!=NULL;i++)
 	{
-		printf("branch data[%d]:%d\n",i,head->data);
+		printf("branch new data[%d]:%d\n",i,head->data);
 		head = head->next;
 	}
 
@@ -58,6 +58,8 @@ int main()
     head = insert_front(head, 8);
     head = insert_front(head, 5);
     head = insert_front(head, 10);
+    head = insert_front(head, 12);
+    head = insert_front(head, 14);
     display(head);
  
     /* Create a loop for testing */
