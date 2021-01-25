@@ -44,7 +44,7 @@ void display(struct node *head)
 {
 	for(int i=0;head!=NULL;i++)
 	{
-		printf("data[%d]:%d\n",i,head->data);
+		printf("branch data[%d]:%d\n",i,head->data);
 		head = head->next;
 	}
 
