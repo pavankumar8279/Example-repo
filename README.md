@@ -1,8 +1,4 @@
-#Example Repo,
+#DataStructure code
 
-Hello world...! new 
-
-This is a second change.
-
-Detect loop
+Detect loop in a LinkedList
 
